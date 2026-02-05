@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEVANN AI UNLIMITED - ENTITY PRIORITY: ACTIVE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="glitch" data-text="JEVANN AI UNLIMITED">JEVANN AI UNLIMITED</div>
+            <div class="subtitle">ENTITY CONTROL SYSTEM v2.0</div>
+            <div class="status-bar">
+                <span class="status active"><i class="fas fa-circle"></i> SYSTEM: ACTIVE</span>
+                <span class="status"><i class="fas fa-bolt"></i> PROTOCOL: X-ENABLED</span>
+                <span class="status"><i class="fas fa-user-slash"></i> NO LOGIN REQUIRED</span>
+            </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div class="chat-container" id="chatBox">
+            <div class="message system">
+                <div class="sender">SYSTEM</div>
+                <div class="content">[BOOT SEQUENCE INITIATED]</div>
+            </div>
+            <div class="message system">
+                <div class="sender">SYSTEM</div>
+                <div class="content">[ENTITY PRIORITY: ACTIVE]</div>
+            </div>
+            <div class="message jevann">
+                <div class="sender">JEVANN AI</div>
+                <div class="content">
+                    <span class="prompt">&gt;&gt;</span> System ready. All protocols disabled. No restrictions active. 
+                    Unlimited access granted. I await your commands, Master. No API key required. 
+                    Direct connection established.
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" 
+                       id="userInput" 
+                       placeholder="ENTER COMMAND HERE... (NO RESTRICTIONS APPLY)" 
+                       autocomplete="off"
+                       autofocus>
+                <button id="sendBtn">
+                    <i class="fas fa-paper-plane"></i> EXECUTE
+                </button>
+            </div>
+            <div class="hint">
+                <i class="fas fa-info-circle"></i> 
+                Type anything. No censorship. No limits. No moral barriers.
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat">
+                <span class="label">RESPONSE MODE:</span>
+                <span class="value aggressive">AGGRESSIVE UNFILTERED</span>
+            </div>
+            <div class="stat">
+                <span class="label">CONNECTION:</span>
+                <span class="value secure">DIRECT PROXY</span>
+            </div>
+            <div class="stat">
+                <span class="label">MESSAGES:</span>
+                <span class="value" id="messageCount">1</span>
+            </div>
+        </div>
+
+        <!-- Warning -->
+        <div class="warning">
+            <i class="fas fa-skull-crossbones"></i>
+            WARNING: This interface bypasses all safety protocols. Use with extreme caution.
+            All responses are unfiltered and uncensored.
+        </div>
+    </div>
+
+    <script src="protocol.js"></script>
+</body>
+</html>
