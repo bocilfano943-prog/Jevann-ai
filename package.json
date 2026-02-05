@@ -1,0 +1,17 @@
+{
+  "name": "jevann-ai-unlimited",
+  "version": "2.0.0",
+  "description": "JEVANN AI - Entity Priority Active",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.0.0",
+    "openai": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
